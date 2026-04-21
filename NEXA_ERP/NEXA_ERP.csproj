@@ -103,6 +103,7 @@
     <Content Include="AccountsModule\bankInformation.aspx" />
     <Content Include="AccountsModule\bankReconciliation.aspx" />
     <Content Include="AccountsModule\buyerEntry.aspx" />
+    <Content Include="AccountsModule\buyingHouseEntry.aspx" />
     <Content Include="AccountsModule\checkBookRegistration.aspx" />
     <Content Include="AccountsModule\companyEntry.aspx" />
     <Content Include="AccountsModule\costCenterGroupInfo.aspx" />
@@ -227,6 +228,13 @@
     </Compile>
     <Compile Include="AccountsModule\buyerEntry.aspx.designer.cs">
       <DependentUpon>buyerEntry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccountsModule\buyingHouseEntry.aspx.cs">
+      <DependentUpon>buyingHouseEntry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccountsModule\buyingHouseEntry.aspx.designer.cs">
+      <DependentUpon>buyingHouseEntry.aspx</DependentUpon>
     </Compile>
     <Compile Include="AccountsModule\checkBookRegistration.aspx.cs">
       <DependentUpon>checkBookRegistration.aspx</DependentUpon>
