@@ -4,136 +4,147 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
-            <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Thread Consumpsion</title>
+        <!-- Tailwind CSS -->
+        <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <form id="form1" runat="server">
-        <div>
-            <div class="grid grid-cols-12 gap-4">
+    <form id="form" runat="server" class="p-2">
+        <!-- Outer Card -->
+        <div class="bg-white border border-gray-300 rounded-xl shadow-md overflow-hidden max-w-full mx-auto">
 
-    <!-- Left Side Inputs -->
-    <div class="col-span-4 space-y-3">
-
-        <div>
-            <label class="block mb-1">Buyer</label>
-            <asp:TextBox ID="txtBuyer"
-                runat="server"
-                CssClass="w-full border border-gray-400 h-8 px-2 rounded">
-            </asp:TextBox>
-        </div>
-
-        <div>
-            <label class="block mb-1">Style</label>
-            <asp:TextBox ID="txtStyle"
-                runat="server"
-                CssClass="w-full border border-gray-400 h-8 px-2 rounded">
-            </asp:TextBox>
-        </div>
-
-        <div>
-            <label class="block mb-1">Name</label>
-            <asp:TextBox ID="txtName"
-                runat="server"
-                CssClass="w-full border border-gray-400 h-8 px-2 rounded">
-            </asp:TextBox>
-        </div>
-
-        <div>
-            <label class="block mb-1">Type</label>
-            <asp:DropDownList ID="ddlType"
-                runat="server"
-                CssClass="w-full border border-gray-400 h-8 px-2 rounded">
-            </asp:DropDownList>
-        </div>
-
-        <div>
-            <label class="block mb-1">Color</label>
-            <asp:DropDownList ID="ddlColor"
-                runat="server"
-                CssClass="w-full border border-gray-400 h-8 px-2 rounded">
-            </asp:DropDownList>
-        </div>
-
-        <div class="grid grid-cols-2 gap-2">
-            <div>
-                <label class="block mb-1">Size</label>
-                <asp:TextBox ID="txtSize"
-                    runat="server"
-                    CssClass="w-full border border-gray-400 h-8 px-2 rounded">
-                </asp:TextBox>
+            <!-- Header -->
+            <div class="bg-[#0d6efd] text-white px-2 py-1">
+                <h1 class="text-2xl mb-1">Thread Consumpsion</h1>
+                <asp:Label ID="Label5" runat="server" Text="Label" CssClass="ml-1"></asp:Label>
             </div>
 
-            <div>
-                <label class="block mb-1">Avg Thickness</label>
-                <asp:TextBox ID="txtThickness"
-                    runat="server"
-                    CssClass="w-full border border-gray-400 h-8 px-2 rounded">
-                </asp:TextBox>
+            <!--boday part-->
+            <div class="grid grid-cols-4 px-2 py-2 gap-x-2 ">
+
+                <!-- Left Side Inputs -->
+                <div class="col-span-1 border border-gray-400 rounded-xl bg-gray-50 px-2 py-2 h-[320px] overflow-y-auto">
+                    <div>
+                        <label class="block mb-1">Buyer</label>
+                        <asp:TextBox ID="txtBuyer" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:TextBox>
+                    </div>
+
+                    <div>
+                        <label class="block mb-1">Style</label>
+                        <asp:TextBox ID="txtStyle" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:TextBox>
+                    </div>
+
+                    <div>
+                        <label class="block mb-1">Name</label>
+                        <asp:TextBox ID="txtName" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:TextBox>
+                    </div>
+
+                    <div>
+                        <label class="block mb-1">Type</label>
+                        <asp:DropDownList ID="ddlType" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:DropDownList>
+                    </div>
+
+                    <div>
+                        <label class="block mb-1">Color</label>
+                        <asp:DropDownList ID="ddlColor" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:DropDownList>
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-2">
+                        <div>
+                            <label class="block mb-1">Size</label>
+                            <asp:TextBox ID="txtSize" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:TextBox>
+                        </div>
+
+                        <div>
+                            <label class="block mb-1">Avg Thickness</label>
+                            <asp:TextBox ID="txtThickness" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:TextBox>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block mb-1">Material Type</label>
+                        <asp:DropDownList ID="ddlMaterial" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:DropDownList>
+                    </div>
+
+                    <div>
+                        <label class="block mb-1">Body Part</label>
+                        <asp:DropDownList ID="ddlBodyPart" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:DropDownList>
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-2">
+                        <div>
+                            <label class="block mb-1">Consumpsion</label>
+                            <asp:TextBox ID="TextBox1" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:TextBox>
+                        </div>
+
+                        <div>
+                            <label class="block mb-1">WT%</label>
+                            <asp:TextBox ID="TextBox2" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:TextBox>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block mb-1">UOM</label>
+                        <asp:DropDownList ID="ddlUOM" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:DropDownList>
+                    </div>
+
+                    <asp:Button ID="btnAdd" runat="server" Text="Add" CssClass="bg-blue-600 text-white px-4 py-2 rounded" />
+                </div>
+
+                <!-- midille part-->
+                <div class="col-span-1 border border-gray-400 rounded-xl bg-gray-50 px-2 py-1 h-[320px] overflow-y-auto">
+                    <asp:Label ID="Label1" runat="server" Text="Label">Summary View</asp:Label>
+                    <div class="border border-gray-400 rounded-xl mt-2 mb-2 p-1">
+                        <div>
+                            <label class="block mb-1">Total Metres/Garment Consumed</label>
+                            <asp:TextBox ID="TextBox3" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:TextBox>
+                        </div>
+
+                        <div>
+                            <label class="block mb-1">Metres/Garment - Waste</label>
+                            <asp:TextBox ID="TextBox4" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:TextBox>
+                        </div>
+
+                        <div>
+                            <label class="block mb-1">Percent Waste</label>
+                            <asp:TextBox ID="TextBox5" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:TextBox>
+                        </div>
+
+                        <div>
+                            <label class="block mb-1">Total Metres/Garment</label>
+                            <asp:TextBox ID="TextBox6" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:TextBox>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Side GridView -->
+                <div class="col-span-2 border border-gray-400 rounded-xl bg-gray-50 px-2 h-fit">
+                    <div class="border border-gray-400 rounded-xl mt-2 mb-2  overflow-auto h-[300px]">
+                        <asp:GridView ID="gvData" runat="server" CssClass="w-full"></asp:GridView>
+                    </div>
+                </div>
             </div>
-        </div>
+            
+            <!-- Bottom Row -->
+            <div class="flex flex-col md:flex-row justify-between items-center px-2 py-2">
+                <!-- Checkboxes -->
+                <div class="flex justify-between items-center gap-2">
 
-        <div>
-            <label class="block mb-1">Material Type</label>
-            <asp:DropDownList ID="ddlMaterial"
-                runat="server"
-                CssClass="w-full border border-gray-400 h-8 px-2 rounded">
-            </asp:DropDownList>
-        </div>
-
-        <div>
-            <label class="block mb-1">Body Part</label>
-            <asp:DropDownList ID="ddlBodyPart"
-                runat="server"
-                CssClass="w-full border border-gray-400 h-8 px-2 rounded">
-            </asp:DropDownList>
-        </div>
-
-        <div class="grid grid-cols-3 gap-2">
-            <asp:TextBox ID="txtConsumption"
-                runat="server"
-                CssClass="border border-gray-400 h-8 px-2 rounded">
-            </asp:TextBox>
-
-            <span class="text-center mt-2">WT%</span>
-
-            <asp:TextBox ID="txtWt"
-                runat="server"
-                CssClass="border border-gray-400 h-8 px-2 rounded">
-            </asp:TextBox>
-        </div>
-
-        <div>
-            <label class="block mb-1">UOM</label>
-            <asp:DropDownList ID="ddlUOM"
-                runat="server"
-                CssClass="w-full border border-gray-400 h-8 px-2 rounded">
-            </asp:DropDownList>
-        </div>
-
-        <asp:Button ID="btnAdd"
-            runat="server"
-            Text="Add"
-            CssClass="bg-blue-600 text-white px-4 py-2 rounded" />
-
-    </div>
-
-                    <!-- Right Side GridView -->
-    <div class="col-span-8">
-
-        <div class="border border-gray-400 h-[500px]">
-
-            <asp:GridView ID="gvData"
-                runat="server"
-                CssClass="w-full">
-            </asp:GridView>
-
-        </div>
-
-    </div>
-
-</div>
+                    <div class="flex items-center"> 
+                        <input type="checkbox" id="isActive" class="w-4 h-4 text-blue-600 rounded border-gray-400"/>
+                        <label for="isActive">Is Active?</label>
+                    </div>
+                    <div class="flex items-center"> 
+                        <input type="checkbox" id="isTheard" class="w-4 h-4 text-blue-600 rounded border-gray-400"/>
+                        <label for="isActive">Is Theard?</label>
+                    </div>
+                </div>
+                <!-- Buttons -->
+                <div class="flex justify-between items-center gap-2">
+                    <asp:Button ID="Button1" runat="server" Text="Save" CssClass="bg-green-600 hover:bg-green-700 text-white h-8 w-24 rounded shadow-sm transition duration-200 cursor-pointer"/>
+                    <asp:Button ID="Button2" runat="server" Text="Cancel" CssClass="bg-red-500 hover:bg-red-600 text-white h-8 w-24 rounded shadow-sm transition duration-200 cursor-pointer"/>
+                </div>
+            </div>
         </div>
     </form>
 </body>
