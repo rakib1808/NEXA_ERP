@@ -139,6 +139,10 @@
     <Content Include="FabricType.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="IE_Module\MachineInfo.aspx" />
+    <Content Include="IE_Module\OperationSetup.aspx" />
+    <Content Include="IE_Module\OperationType.aspx" />
+    <Content Include="IE_Module\ThreadConsumpsion.aspx" />
     <Content Include="ItemCategory.aspx" />
     <Content Include="poEntrypage1.aspx" />
     <Content Include="poEntryPage2.aspx" />
@@ -359,6 +363,34 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="IE_Module\MachineInfo.aspx.cs">
+      <DependentUpon>MachineInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IE_Module\MachineInfo.aspx.designer.cs">
+      <DependentUpon>MachineInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IE_Module\OperationSetup.aspx.cs">
+      <DependentUpon>OperationSetup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IE_Module\OperationSetup.aspx.designer.cs">
+      <DependentUpon>OperationSetup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IE_Module\OperationType.aspx.cs">
+      <DependentUpon>OperationType.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IE_Module\OperationType.aspx.designer.cs">
+      <DependentUpon>OperationType.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IE_Module\ThreadConsumpsion.aspx.cs">
+      <DependentUpon>ThreadConsumpsion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IE_Module\ThreadConsumpsion.aspx.designer.cs">
+      <DependentUpon>ThreadConsumpsion.aspx</DependentUpon>
     </Compile>
     <Compile Include="ItemCategory.aspx.cs">
       <DependentUpon>ItemCategory.aspx</DependentUpon>
