@@ -19,7 +19,7 @@
                 <asp:Label ID="Label5" runat="server" Text="Label" CssClass="ml-1"></asp:Label>
             </div>
 
-            <!--boday part-->
+            <!--Top boday part-->
             <div class="grid grid-cols-4 px-2 py-2 gap-x-2 ">
 
                 <!-- Left Side Inputs -->
@@ -90,7 +90,6 @@
 
                     <asp:Button ID="btnAdd" runat="server" Text="Add" CssClass="bg-blue-600 text-white px-4 py-2 rounded" />
                 </div>
-
                 <!-- midille part-->
                 <div class="col-span-1 border border-gray-400 rounded-xl bg-gray-50 px-2 py-1 h-[320px] overflow-y-auto">
                     <asp:Label ID="Label1" runat="server" Text="Label">Summary View</asp:Label>
@@ -99,28 +98,87 @@
                             <label class="block mb-1">Total Metres/Garment Consumed</label>
                             <asp:TextBox ID="TextBox3" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:TextBox>
                         </div>
-
                         <div>
                             <label class="block mb-1">Metres/Garment - Waste</label>
                             <asp:TextBox ID="TextBox4" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:TextBox>
                         </div>
-
                         <div>
                             <label class="block mb-1">Percent Waste</label>
                             <asp:TextBox ID="TextBox5" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:TextBox>
                         </div>
-
                         <div>
                             <label class="block mb-1">Total Metres/Garment</label>
                             <asp:TextBox ID="TextBox6" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:TextBox>
-                        </div>
-                    </div>
+                        </div>                    </div>
                 </div>
-
                 <!-- Right Side GridView -->
                 <div class="col-span-2 border border-gray-400 rounded-xl bg-gray-50 px-2 h-fit">
                     <div class="border border-gray-400 rounded-xl mt-2 mb-2  overflow-auto h-[300px]">
                         <asp:GridView ID="gvData" runat="server" CssClass="w-full"></asp:GridView>
+                    </div>
+                </div>
+            </div>
+
+            <!--muddile boday part-->
+            <div class="grid grid-cols-4 px-2 gap-x-2 ">
+                <!-- Left part-->
+                <div class="col-span-3 border border-gray-400 rounded-xl bg-gray-50 px-2 h-fit">
+                    <div class="flex items-center justify-content-center gap-2">
+                        <div>
+                            <label class="block ">Operation Type</label>
+                            <asp:TextBox ID="TextBox10" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:TextBox>
+                        </div>
+                        <div>
+                            <label class="block">Thread Description</label>
+                            <asp:TextBox ID="TextBox11" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:TextBox>
+                        </div>
+                    </div>
+                    <!--Grid view-->
+                    <div class="border border-gray-400 rounded-xl mt-2 mb-2  overflow-auto h-[300px]">
+                        <asp:GridView ID="GridView2" runat="server" CssClass="w-full"></asp:GridView>
+                    </div>
+                </div>
+
+                <!-- Right Side -->
+                <div class="col-span-1 border border-gray-400 rounded-xl bg-gray-50 px-2 ">
+                    <div class="mt-2">
+                        <asp:DropDownList ID="DropDownList1" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:DropDownList>
+                    </div>
+                    <!-- GridView -->
+                    <div class="border border-gray-400 rounded-xl mt-2 mb-2  overflow-auto h-[300px]">
+                        <asp:GridView ID="GridView1" runat="server" CssClass="w-full"></asp:GridView>
+                    </div>
+                </div>
+            </div>
+
+            <!--Bottom boday part-->
+            <div class="grid grid-cols-4 px-2 py-2 gap-x-2 ">
+                <!-- Left Side Inputs -->
+                <div class="col-span-1 border border-gray-400 rounded-xl bg-gray-50 px-2 py-2 h-[320px] overflow-y-auto">
+                    <div class="grid grid-cols-2 gap-2">
+                        <div>
+                            <label class="block mb-1">Date</label>
+                            <asp:TextBox ID="TextBox14" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:TextBox>
+                        </div>
+                        <div>
+                            <label class="block mb-1">To</label>
+                            <asp:TextBox ID="TextBox15" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:TextBox>
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block mb-1">Buyer</label>
+                        <asp:TextBox ID="TextBox7" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:TextBox>
+                    </div>
+                    <div>
+                        <label class="block mb-1">Style</label>
+                        <asp:TextBox ID="TextBox8" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:TextBox>
+                    </div>
+                    <asp:Button ID="Button3" runat="server" Text="Search" CssClass=" mt-2 bg-blue-600 text-white px-4 py-2 rounded" />
+                </div>
+                <!-- Right Side GridView -->
+                <div class="col-span-3 border border-gray-400 rounded-xl bg-gray-50 px-2 h-fit">
+                    <div class="border border-gray-400 rounded-xl mt-2 mb-2  overflow-auto h-[300px]">
+                        <asp:GridView ID="GridView3" runat="server" CssClass="w-full"></asp:GridView>
                     </div>
                 </div>
             </div>
