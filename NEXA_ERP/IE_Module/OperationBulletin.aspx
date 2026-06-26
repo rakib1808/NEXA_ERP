@@ -27,7 +27,7 @@
                         <label class="block mb-1">Style No</label>
                         <div class="flex justify-between items-center gap-1">
                             <asp:TextBox ID="TextBox9" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:TextBox>
-                            <asp:Button ID="btSearch" runat="server" Text="Search" CssClass="bg-green-600 hover:bg-green-700 text-white h-8 w-24 rounded shadow-sm transition duration-200 cursor-pointer"/>
+                            <asp:Button ID="btSearch" runat="server" Text="Search" CssClass="bg-blue-500 hover:bg-blue-600 text-white h-8 w-24 rounded shadow-sm transition duration-200 cursor-pointer"/>
                         </div>
                     </div>
                     <div class="border border-gray-400 rounded-xl mt-2 mb-2  overflow-auto">
@@ -171,7 +171,7 @@
                             <asp:TextBox ID="TextBox23" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:TextBox>
                         </div>
                     </div>    
-                    <asp:Button ID="Button4" runat="server" Text="Search" CssClass=" mt-2 bg-blue-600 text-white px-4 py-2 rounded" />
+                    <asp:Button ID="Button4" runat="server" Text="Search" CssClass="mt-2 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded cursor-pointer" />
                     <!-- GridView -->
                     <div class="border border-gray-400 rounded-xl mt-2 mb-2  overflow-auto">
                         <asp:GridView ID="GridView6" runat="server" CssClass="w-full"></asp:GridView>
@@ -210,7 +210,6 @@
                     <asp:Button ID="Button2" runat="server" Text="Cancel" CssClass="bg-red-500 hover:bg-red-600 text-white h-8 w-24 rounded shadow-sm transition duration-200 cursor-pointer"/>
                 </div>
             </div>
-        </div>
     </form>
 </body>
 </html>
