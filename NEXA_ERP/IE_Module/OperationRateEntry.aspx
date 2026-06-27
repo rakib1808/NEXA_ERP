@@ -24,31 +24,31 @@
                 <!-- Left side Inputs section-->
                 <div class="col-span-1 border border-gray-400 rounded-xl bg-gray-50 px-2 py-2 ">
                     <div>
-                        <label class="block">Item Type</label>
-                        <asp:TextBox ID="TextBox2" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:TextBox>
+                        <label class="block">Date</label>
+                        <asp:DropDownList ID="DropDownList1" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:DropDownList>
                     </div>
                     <div>
-                        <label class="block">Learning Curve</label>
-                        <asp:TextBox ID="TextBox3" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:TextBox>
-                    </div>
-                    <div>
-                        <label class="block">Sample Date</label>
-                        <asp:TextBox ID="TextBox4" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:TextBox>
-                    </div>
-                    <div>
-                        <label class="block">Sample Type</label>
+                        <label class="block">Section Name</label>
                         <asp:DropDownList ID="DropDownList2" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:DropDownList>
                     </div>
                     <div>
-                        <label class="block">Man Fabric</label>
+                        <label class="block">Factory Name</label>
+                        <asp:DropDownList ID="DropDownList3" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:DropDownList>
+                    </div>
+                    <div>
+                        <label class="block">Buyer Name</label>
+                        <asp:TextBox ID="TextBox1" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:TextBox>
+                    </div>
+                    <div>
+                        <label class="block">Style No</label>
                         <asp:TextBox ID="TextBox5" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:TextBox>
                     </div>
                     <div>
-                        <label class="block">GSM</label>
+                        <label class="block">Style Name</label>
                         <asp:TextBox ID="TextBox6" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:TextBox>
                     </div>
                     <div>
-                        <label class="block">Total Operator</label>
+                        <label class="block">Item Type</label>
                         <asp:TextBox ID="TextBox19" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:TextBox>
                     </div>  
                 </div>
