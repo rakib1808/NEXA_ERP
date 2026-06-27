@@ -142,6 +142,7 @@
     <Content Include="IE_Module\MachineInfo.aspx" />
     <Content Include="IE_Module\OperationBulletin.aspx" />
     <Content Include="IE_Module\OperationLayout.aspx" />
+    <Content Include="IE_Module\OperationRateEntry.aspx" />
     <Content Include="IE_Module\OperationSetup.aspx" />
     <Content Include="IE_Module\OperationType.aspx" />
     <Content Include="IE_Module\ThreadConsumpsion.aspx" />
@@ -386,6 +387,13 @@
     </Compile>
     <Compile Include="IE_Module\OperationLayout.aspx.designer.cs">
       <DependentUpon>OperationLayout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IE_Module\OperationRateEntry.aspx.cs">
+      <DependentUpon>OperationRateEntry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IE_Module\OperationRateEntry.aspx.designer.cs">
+      <DependentUpon>OperationRateEntry.aspx</DependentUpon>
     </Compile>
     <Compile Include="IE_Module\OperationSetup.aspx.cs">
       <DependentUpon>OperationSetup.aspx</DependentUpon>
