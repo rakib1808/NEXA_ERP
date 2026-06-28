@@ -22,7 +22,7 @@
             <!--Top boday part-->
             <div class="grid grid-cols-6 px-2 py-2 gap-x-2 min-h-screen">
                 <!-- Left side Inputs section-->
-                <div class="col-span-2 border border-gray-400 rounded-xl bg-gray-50 px-2 py-2 ">
+                <div class="col-span-2 border border-gray-400 rounded-xl bg-gray-50 px-2 py-2">
                     <div>
                         <label class="block">NPT Code</label>
                         <asp:TextBox ID="TextBox4" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:TextBox>
@@ -44,10 +44,38 @@
                     <div class="mt-4">
                         <label class="block">Section</label>
                     </div> 
-                    <div class="border border-gray-400 rounded-xl bg-gray-50 px-2">
-                        <!--Grid view-->
-                        <div class="border border-gray-400 rounded-xl mt-2 mb-2  overflow-auto">
-                            <asp:GridView ID="GridView1" runat="server" CssClass="w-full"></asp:GridView>
+                    <div class="border border-gray-400 rounded-xl bg-gray-50 px-2 space-y-2">
+                        <div class="flex items-center mt-2"> 
+                            <input type="checkbox" id="isCutting" class="w-4 h-4 text-blue-600 rounded border-gray-400"/>
+                            <label for="isActive">Cutting</label>
+                        </div>
+                        <div class="flex items-center"> 
+                            <input type="checkbox" id="isDyeing" class="w-4 h-4 text-blue-600 rounded border-gray-400"/>
+                            <label for="isActive">Is Dyeing</label>
+                        </div>
+                        <div class="flex items-center"> 
+                            <input type="checkbox" id="isDyeingBatch" class="w-4 h-4 text-blue-600 rounded border-gray-400"/>
+                            <label for="isActive">Is Dyeing Batch</label>
+                        </div>
+                        <div class="flex items-center"> 
+                            <input type="checkbox" id="isFinishig" class="w-4 h-4 text-blue-600 rounded border-gray-400"/>
+                            <label for="isActive">Is Finishig</label>
+                        </div>
+                        <div class="flex items-center"> 
+                            <input type="checkbox" id="isKnitting" class="w-4 h-4 text-blue-600 rounded border-gray-400"/>
+                            <label for="isActive">Is Knitting</label>
+                        </div>
+                        <div class="flex items-center"> 
+                            <input type="checkbox" id="isMIS" class="w-4 h-4 text-blue-600 rounded border-gray-400"/>
+                            <label for="isActive">Is MIS</label>
+                        </div>
+                        <div class="flex items-center"> 
+                            <input type="checkbox" id="isPacking" class="w-4 h-4 text-blue-600 rounded border-gray-400"/>
+                            <label for="isActive">Is Packing</label>
+                        </div>
+                        <div class="flex items-center"> 
+                            <input type="checkbox" id="isSewing" class="w-4 h-4 text-blue-600 rounded border-gray-400"/>
+                            <label for="isActive">Is Sewing?</label>
                         </div>
                     </div>
                 </div>
