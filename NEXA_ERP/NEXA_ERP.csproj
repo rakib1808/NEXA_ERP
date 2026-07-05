@@ -141,12 +141,15 @@
     <Content Include="Global.asax" />
     <Content Include="IE_Module\MachineInfo.aspx" />
     <Content Include="IE_Module\NPT_Entry.aspx" />
+    <Content Include="IE_Module\NPT_Report.aspx" />
     <Content Include="IE_Module\NPT_TypeSetup.aspx" />
     <Content Include="IE_Module\OperationBulletin.aspx" />
     <Content Include="IE_Module\OperationLayout.aspx" />
     <Content Include="IE_Module\OperationRateEntry.aspx" />
     <Content Include="IE_Module\OperationSetup.aspx" />
     <Content Include="IE_Module\OperationType.aspx" />
+    <Content Include="IE_Module\SetStyleSMV.aspx" />
+    <Content Include="IE_Module\style_SMV_Report.aspx" />
     <Content Include="IE_Module\ThreadConsumpsion.aspx" />
     <Content Include="ItemCategory.aspx" />
     <Content Include="poEntrypage1.aspx" />
@@ -383,6 +386,13 @@
     <Compile Include="IE_Module\NPT_Entry.aspx.designer.cs">
       <DependentUpon>NPT_Entry.aspx</DependentUpon>
     </Compile>
+    <Compile Include="IE_Module\NPT_Report.aspx.cs">
+      <DependentUpon>NPT_Report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IE_Module\NPT_Report.aspx.designer.cs">
+      <DependentUpon>NPT_Report.aspx</DependentUpon>
+    </Compile>
     <Compile Include="IE_Module\NPT_TypeSetup.aspx.cs">
       <DependentUpon>NPT_TypeSetup.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -424,6 +434,20 @@
     </Compile>
     <Compile Include="IE_Module\OperationType.aspx.designer.cs">
       <DependentUpon>OperationType.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IE_Module\SetStyleSMV.aspx.cs">
+      <DependentUpon>SetStyleSMV.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IE_Module\SetStyleSMV.aspx.designer.cs">
+      <DependentUpon>SetStyleSMV.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IE_Module\style_SMV_Report.aspx.cs">
+      <DependentUpon>style_SMV_Report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IE_Module\style_SMV_Report.aspx.designer.cs">
+      <DependentUpon>style_SMV_Report.aspx</DependentUpon>
     </Compile>
     <Compile Include="IE_Module\ThreadConsumpsion.aspx.cs">
       <DependentUpon>ThreadConsumpsion.aspx</DependentUpon>

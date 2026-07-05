@@ -75,7 +75,7 @@
                         </div>
                         <div>
                             <label class="block mb-1">Style No</label>
-                            <asp:TextBox ID="TextBox7" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:TextBox>
+                            <asp:TextBox ID="TextBox7" runat="server" CssClass="w-full border border-gray-400 h-8  px-2 rounded"></asp:TextBox>
                         </div>
                         <asp:Button ID="Button3" runat="server" Text="Search" CssClass="bg-blue-600 text-white px-4 rounded h-8 mt-7" />
                     </div>
