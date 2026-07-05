@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Style SMV Report</title>
         <!-- Tailwind CSS -->
         <script src="https://cdn.tailwindcss.com"></script>
 </head>
@@ -14,7 +14,7 @@
         <div class="bg-white border border-gray-300 rounded-xl shadow-md overflow-hidden max-w-full mx-auto">
             <!-- Header -->
             <div class="bg-[#0d6efd] text-white px-2 py-1">
-                <h1 class="text-2xl mb-1">NPT Report</h1>
+                <h1 class="text-2xl mb-1">Style SMV Report</h1>
                 <asp:Label ID="Label5" runat="server" Text="Label" CssClass="ml-1"></asp:Label>
             </div>                                                                  
             <!-- boday part-->
