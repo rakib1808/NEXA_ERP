@@ -18,7 +18,7 @@
                 <asp:Label ID="Label5" runat="server" Text="Label" CssClass="ml-1"></asp:Label>
             </div>                                                                  
             <!-- boday part-->
-            <div class="min-h-screen p-4">
+            <div class="p-4">
                 <div class="grid grid-cols-12 gap-4 items-start"> 
                     <!-- ================= LEFT PART (Style & TreeView) ================= -->
                     <div class="col-span-3 bg-white p-4 rounded-xl border border-gray-400 shadow-sm">
