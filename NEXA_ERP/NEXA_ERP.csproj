@@ -150,6 +150,7 @@
     <Content Include="IE_Module\OperationType.aspx" />
     <Content Include="IE_Module\OperatorSkill.aspx" />
     <Content Include="IE_Module\SetStyleSMV.aspx" />
+    <Content Include="IE_Module\SkillView.aspx" />
     <Content Include="IE_Module\style_SMV_Report.aspx" />
     <Content Include="IE_Module\ThreadConsumpsion.aspx" />
     <Content Include="ItemCategory.aspx" />
@@ -449,6 +450,13 @@
     </Compile>
     <Compile Include="IE_Module\SetStyleSMV.aspx.designer.cs">
       <DependentUpon>SetStyleSMV.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IE_Module\SkillView.aspx.cs">
+      <DependentUpon>SkillView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IE_Module\SkillView.aspx.designer.cs">
+      <DependentUpon>SkillView.aspx</DependentUpon>
     </Compile>
     <Compile Include="IE_Module\style_SMV_Report.aspx.cs">
       <DependentUpon>style_SMV_Report.aspx</DependentUpon>
