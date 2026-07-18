@@ -140,6 +140,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="IE_Module\MachineInfo.aspx" />
+    <Content Include="IE_Module\ManPowerBudget.aspx" />
     <Content Include="IE_Module\NPT_Entry.aspx" />
     <Content Include="IE_Module\NPT_Report.aspx" />
     <Content Include="IE_Module\NPT_TypeSetup.aspx" />
@@ -380,6 +381,13 @@
     </Compile>
     <Compile Include="IE_Module\MachineInfo.aspx.designer.cs">
       <DependentUpon>MachineInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IE_Module\ManPowerBudget.aspx.cs">
+      <DependentUpon>ManPowerBudget.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IE_Module\ManPowerBudget.aspx.designer.cs">
+      <DependentUpon>ManPowerBudget.aspx</DependentUpon>
     </Compile>
     <Compile Include="IE_Module\NPT_Entry.aspx.cs">
       <DependentUpon>NPT_Entry.aspx</DependentUpon>
