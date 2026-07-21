@@ -174,7 +174,7 @@
                             <asp:TextBox ID="TextBox1" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:TextBox>
                     </div>
 
-                    <fieldset class="border border-gray-500 rounded-lg py-1 px-2">
+                    <fieldset class="border border-gray-500 rounded-lg py-1 px-2 mt-2 mb-2">
                         <legend class="px-2 font-medium">Actual CM</legend>
                         <div class="w-full max-w-md">
                             <label class="block">CM</label>
