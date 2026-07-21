@@ -139,6 +139,7 @@
     <Content Include="FabricType.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="IE_Module\CM_Calculator.aspx" />
     <Content Include="IE_Module\MachineInfo.aspx" />
     <Content Include="IE_Module\ManPowerBudget.aspx" />
     <Content Include="IE_Module\ManpowerBudgetVsActualView.aspx" />
@@ -375,6 +376,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="IE_Module\CM_Calculator.aspx.cs">
+      <DependentUpon>CM_Calculator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IE_Module\CM_Calculator.aspx.designer.cs">
+      <DependentUpon>CM_Calculator.aspx</DependentUpon>
     </Compile>
     <Compile Include="IE_Module\MachineInfo.aspx.cs">
       <DependentUpon>MachineInfo.aspx</DependentUpon>
