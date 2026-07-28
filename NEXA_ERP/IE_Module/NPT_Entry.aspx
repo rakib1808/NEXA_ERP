@@ -48,7 +48,7 @@
                 <!-- Right Side GridView -->
                 <div class="col-span-3 border border-gray-400 rounded-xl bg-gray-50 px-2 min-h-screen">
                     <!-- Top Part-->
-                    <div class="flex gap-2 justify-between border border-gray-400 rounded-xl bg-gray-50 px-2 py-2 h-fit mt-2">
+                    <div class="flex gap-2 justify-between px-2 py-2 h-fit mt-2">
                         <div>
                             <label class="block mb-1">Date</label>
                             <asp:TextBox ID="TextBox1" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:TextBox>
@@ -90,7 +90,7 @@
             <div class="grid grid-cols-4 px-2 gap-x-2 ">
                 <div class="col-span-4 border border-gray-400 rounded-xl bg-gray-50 px-2 h-fit">
 <!-- top part-->
-<div class="flex gap-3 border border-gray-400 rounded-xl bg-gray-50 p-3 h-fit mt-2 overflow-auto whitespace-nowrap items-end">
+<div class="flex gap-3  mt-2 overflow-auto whitespace-nowrap items-end">
     
     <div>
         <label class="block mb-1 text-sm font-medium">Line No</label>

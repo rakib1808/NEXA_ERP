@@ -144,6 +144,7 @@
     <Content Include="IE_Module\CM_Calculator.aspx" />
     <Content Include="IE_Module\DailyManpowerStatus.aspx" />
     <Content Include="IE_Module\MachineInfo.aspx" />
+    <Content Include="IE_Module\MachineUtilizationStatus.aspx" />
     <Content Include="IE_Module\ManPowerBudget.aspx" />
     <Content Include="IE_Module\ManpowerBudgetVsActualView.aspx" />
     <Content Include="IE_Module\NPT_Entry.aspx" />
@@ -415,6 +416,13 @@
     </Compile>
     <Compile Include="IE_Module\MachineInfo.aspx.designer.cs">
       <DependentUpon>MachineInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IE_Module\MachineUtilizationStatus.aspx.cs">
+      <DependentUpon>MachineUtilizationStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IE_Module\MachineUtilizationStatus.aspx.designer.cs">
+      <DependentUpon>MachineUtilizationStatus.aspx</DependentUpon>
     </Compile>
     <Compile Include="IE_Module\ManPowerBudget.aspx.cs">
       <DependentUpon>ManPowerBudget.aspx</DependentUpon>
