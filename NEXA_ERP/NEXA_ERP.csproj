@@ -143,8 +143,10 @@
     <Content Include="IE_Module\AdditionalManpowerWorkingArea.aspx" />
     <Content Include="IE_Module\CM_Calculator.aspx" />
     <Content Include="IE_Module\DailyManpowerStatus.aspx" />
+    <Content Include="IE_Module\KPIBasePerformanceReport.aspx" />
     <Content Include="IE_Module\MachineInfo.aspx" />
     <Content Include="IE_Module\MachineUtilizationStatus.aspx" />
+    <Content Include="IE_Module\MachineUtilizitionStatusReport.aspx" />
     <Content Include="IE_Module\ManPowerBudget.aspx" />
     <Content Include="IE_Module\ManpowerBudgetVsActualView.aspx" />
     <Content Include="IE_Module\NPT_Entry.aspx" />
@@ -157,6 +159,7 @@
     <Content Include="IE_Module\OperationType.aspx" />
     <Content Include="IE_Module\OperatorSkill.aspx" />
     <Content Include="IE_Module\SetStyleSMV.aspx" />
+    <Content Include="IE_Module\SewingoutputStaus.aspx" />
     <Content Include="IE_Module\SkillView.aspx" />
     <Content Include="IE_Module\StyleChangeOverPoint.aspx" />
     <Content Include="IE_Module\style_SMV_Report.aspx" />
@@ -410,6 +413,13 @@
     <Compile Include="IE_Module\DailyManpowerStatus.aspx.designer.cs">
       <DependentUpon>DailyManpowerStatus.aspx</DependentUpon>
     </Compile>
+    <Compile Include="IE_Module\KPIBasePerformanceReport.aspx.cs">
+      <DependentUpon>KPIBasePerformanceReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IE_Module\KPIBasePerformanceReport.aspx.designer.cs">
+      <DependentUpon>KPIBasePerformanceReport.aspx</DependentUpon>
+    </Compile>
     <Compile Include="IE_Module\MachineInfo.aspx.cs">
       <DependentUpon>MachineInfo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -423,6 +433,13 @@
     </Compile>
     <Compile Include="IE_Module\MachineUtilizationStatus.aspx.designer.cs">
       <DependentUpon>MachineUtilizationStatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IE_Module\MachineUtilizitionStatusReport.aspx.cs">
+      <DependentUpon>MachineUtilizitionStatusReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IE_Module\MachineUtilizitionStatusReport.aspx.designer.cs">
+      <DependentUpon>MachineUtilizitionStatusReport.aspx</DependentUpon>
     </Compile>
     <Compile Include="IE_Module\ManPowerBudget.aspx.cs">
       <DependentUpon>ManPowerBudget.aspx</DependentUpon>
@@ -507,6 +524,13 @@
     </Compile>
     <Compile Include="IE_Module\SetStyleSMV.aspx.designer.cs">
       <DependentUpon>SetStyleSMV.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IE_Module\SewingoutputStaus.aspx.cs">
+      <DependentUpon>SewingoutputStaus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IE_Module\SewingoutputStaus.aspx.designer.cs">
+      <DependentUpon>SewingoutputStaus.aspx</DependentUpon>
     </Compile>
     <Compile Include="IE_Module\SkillView.aspx.cs">
       <DependentUpon>SkillView.aspx</DependentUpon>
