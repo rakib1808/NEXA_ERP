@@ -1,36 +1,39 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="MachineUtilizitionStatusReport.aspx.cs" Inherits="NEXA_ERP.IE_Module.MachineUtilizitionStatusReport" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AdditionalManpowerWorkingAreaReport.aspx.cs" Inherits="NEXA_ERP.IE_Module.AdditionalManpowerWorkingAreaReport" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Machine Utilizition Status Report</title>
+    <title>Additional Manpower Working Area Report</title>
         <!-- Tailwind CSS -->
         <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <form id="form" runat="server" class="px-4 py-2">
+    <form id="form" runat="server" class="p-2">
         <!-- Outer Card -->
-        <div class="bg-white border border-gray-300 rounded-xl shadow-md overflow-hidden mx-auto max-h-screen">
+        <div class="bg-white border border-gray-300 rounded-xl shadow-md overflow-hidden max-w-full mx-auto">
 
             <!-- Header -->
             <div class="bg-[#0d6efd] text-white px-2 py-1">
-                <h1 class="text-2xl mb-1">Machine Utilizition Status Report</h1>
+                <h1 class="text-2xl mb-1">Additional Manpower Working Area Report</h1>
                 <asp:Label ID="Label5" runat="server" Text="Label" CssClass="ml-1"></asp:Label>
             </div>
 
             <!-- boday part-->
-            <div class="flex flex-col justify-center items-center py-4">
+            <div class="flex flex-col justify-center items-center py-4 min-h-full">
                 <!-- Inputs -->
                 <div class="w-full max-w-md border border-gray-400 rounded-lg bg-gray-50 px-2 py-2">
-                    <div class="flex justify-between gap-2 items-end">
-                        <div class="w-full max-w-md">
-                            <label class="block">Search Date</label>
-                            <asp:DropDownList ID="ddlType" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:DropDownList>
-                        </div>
-                        <div class="w-full max-w-md">
-                            <asp:Button ID="Button3" runat="server" Text="Export Excel" CssClass="bg-green-600 hover:bg-green-700 text-white h-8 w-24 rounded shadow-sm transition duration-200 cursor-pointer"/>
-                        </div>
+                    <div class="w-full max-w-md">
+                        <label class="block">From</label>
+                        <asp:DropDownList ID="ddlType" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:DropDownList>
+                    </div>
+                    <div class="w-full max-w-md">
+                        <label class="block">To</label>
+                        <asp:DropDownList ID="DropDownList1" runat="server" CssClass="w-full border border-gray-400 h-8 px-2 rounded"></asp:DropDownList>
+                    </div>
+                    <div class="flex justify-between gap-2">
+                        <asp:Button ID="Button3" runat="server" Text="Show" CssClass="bg-green-600 hover:bg-green-700 text-white h-8 w-24 rounded shadow-sm transition duration-200 cursor-pointer mt-4"/>
+                        <asp:Button ID="Button4" runat="server" Text="Export Excel" CssClass="bg-green-600 hover:bg-green-700 text-white h-8 w-24 rounded shadow-sm transition duration-200 cursor-pointer mt-4"/>
                     </div>
                 </div>
             </div>

@@ -11,7 +11,7 @@ namespace NEXA_ERP.IE_Module
 {
 
 
-    public partial class MachineUtilizitionStatusReport
+    public partial class AdditionalManpowerWorkingAreaReport
     {
 
         /// <summary>
@@ -42,6 +42,15 @@ namespace NEXA_ERP.IE_Module
         protected global::System.Web.UI.WebControls.DropDownList ddlType;
 
         /// <summary>
+        /// DropDownList1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
+
+        /// <summary>
         /// Button3 control.
         /// </summary>
         /// <remarks>
@@ -49,6 +58,15 @@ namespace NEXA_ERP.IE_Module
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button3;
+
+        /// <summary>
+        /// Button4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button4;
 
         /// <summary>
         /// Button1 control.
