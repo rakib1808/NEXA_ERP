@@ -203,6 +203,7 @@
     <Content Include="StylePage1.aspx" />
     <Content Include="StylePage2.aspx" />
     <Content Include="Trims\deemedExportLC.aspx" />
+    <Content Include="Trims\DeemedExportLCList.aspx" />
     <Content Include="WebForm1.aspx" />
     <Content Include="yarnItem.aspx" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
@@ -657,6 +658,13 @@
     </Compile>
     <Compile Include="Trims\deemedExportLC.aspx.designer.cs">
       <DependentUpon>deemedExportLC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Trims\DeemedExportLCList.aspx.cs">
+      <DependentUpon>DeemedExportLCList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Trims\DeemedExportLCList.aspx.designer.cs">
+      <DependentUpon>DeemedExportLCList.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
