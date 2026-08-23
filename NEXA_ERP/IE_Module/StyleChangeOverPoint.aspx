@@ -11,7 +11,7 @@
 <body>
     <form id="form" runat="server" class="p-2">
         <!-- Outer Card -->
-        <div class="bg-white border border-gray-300 rounded-xl shadow-md overflow-hidden max-w-full mx-auto">
+        <div class="bg-white border border-gray-300 rounded-xl shadow-md overflow-hidden  max-w-full mx-auto">
 
             <!-- Header -->
             <div class="bg-[#0d6efd] text-white px-2 py-1">
