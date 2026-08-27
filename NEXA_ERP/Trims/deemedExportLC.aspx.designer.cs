@@ -11,7 +11,7 @@ namespace NEXA_ERP.Trims
 {
 
 
-    public partial class deemedExportLC
+    public partial class DeemedExportLC
     {
 
         /// <summary>
@@ -24,13 +24,121 @@ namespace NEXA_ERP.Trims
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// btnBackToList control.
+        /// hfUserId control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton btnBackToList;
+        protected global::System.Web.UI.WebControls.HiddenField hfUserId;
+
+        /// <summary>
+        /// hfLCId control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HiddenField hfLCId;
+
+        /// <summary>
+        /// pnlList control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel pnlList;
+
+        /// <summary>
+        /// btnAddNew control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton btnAddNew;
+
+        /// <summary>
+        /// ddlCompany control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlCompany;
+
+        /// <summary>
+        /// ddlCustomer control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlCustomer;
+
+        /// <summary>
+        /// txtDMDExportLCNo control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtDMDExportLCNo;
+
+        /// <summary>
+        /// txtFromDate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtFromDate;
+
+        /// <summary>
+        /// txtToDate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtToDate;
+
+        /// <summary>
+        /// btnSearch control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton btnSearch;
+
+        /// <summary>
+        /// GridView1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView GridView1;
+
+        /// <summary>
+        /// pnlEntry control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel pnlEntry;
+
+        /// <summary>
+        /// btnBackToListHeader control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton btnBackToListHeader;
 
         /// <summary>
         /// ddlBeneficiary control.
@@ -249,13 +357,13 @@ namespace NEXA_ERP.Trims
         protected global::System.Web.UI.WebControls.LinkButton btnAttachFile;
 
         /// <summary>
-        /// GridView control.
+        /// gvAttachFile control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GridView;
+        protected global::System.Web.UI.WebControls.GridView gvAttachFile;
 
         /// <summary>
         /// txtCustomer control.
@@ -285,13 +393,13 @@ namespace NEXA_ERP.Trims
         protected global::System.Web.UI.WebControls.LinkButton btnAddPI;
 
         /// <summary>
-        /// GridView1 control.
+        /// gvPIInformation control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GridView1;
+        protected global::System.Web.UI.WebControls.GridView gvPIInformation;
 
         /// <summary>
         /// txtLCValueDisplay control.
@@ -330,13 +438,13 @@ namespace NEXA_ERP.Trims
         protected global::System.Web.UI.WebControls.TextBox txtLCCharge;
 
         /// <summary>
-        /// btnSave control.
+        /// btnSaveAndPrint control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton btnSave;
+        protected global::System.Web.UI.WebControls.LinkButton btnSaveAndPrint;
 
         /// <summary>
         /// btnCancel control.
@@ -348,12 +456,12 @@ namespace NEXA_ERP.Trims
         protected global::System.Web.UI.WebControls.LinkButton btnCancel;
 
         /// <summary>
-        /// btnDelete control.
+        /// btnBackToListFooter control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton btnDelete;
+        protected global::System.Web.UI.WebControls.LinkButton btnBackToListFooter;
     }
 }
