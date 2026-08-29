@@ -202,6 +202,7 @@
     <Content Include="Content\bootstrap-grid.css.map" />
     <Content Include="StylePage1.aspx" />
     <Content Include="StylePage2.aspx" />
+    <Content Include="Trims\DailyTargetEntry.aspx" />
     <Content Include="Trims\DeemedExportLC.aspx" />
     <Content Include="WebForm1.aspx" />
     <Content Include="yarnItem.aspx" />
@@ -650,6 +651,13 @@
     </Compile>
     <Compile Include="StylePage2.aspx.designer.cs">
       <DependentUpon>StylePage2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Trims\DailyTargetEntry.aspx.cs">
+      <DependentUpon>DailyTargetEntry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Trims\DailyTargetEntry.aspx.designer.cs">
+      <DependentUpon>DailyTargetEntry.aspx</DependentUpon>
     </Compile>
     <Compile Include="Trims\DeemedExportLC.aspx.cs">
       <DependentUpon>DeemedExportLC.aspx</DependentUpon>
