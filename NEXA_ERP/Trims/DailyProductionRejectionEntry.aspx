@@ -16,7 +16,7 @@
         <div class="max-w-[1320px] w-full m-auto rounded-lg border">
 
             <div class="bg-[#255C8C] flex justify-center items-center rounded-t-lg px-4 py-2">
-                <p class="text-white text-xl font-medium">Daily Target Entry</p>
+                <p class="text-white text-xl font-medium">Daily Production & Rejection Entry</p>
             </div>
 
             <div class="bg-[#ffffff] shadow-xl rounded-b-lg p-4">
