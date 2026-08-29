@@ -79,16 +79,14 @@
                             <asp:TextBox ID="TextBox6" placeholder="To" runat="server" CssClass="w-full border rounded outline-none border-gray-300 px-2 py-1 focus:border-[#255C8C] shadow-sm transition duration-200 ease-in-out"></asp:TextBox>
                         </div>
                     </div>
-                        <%-- add button --%>
-                        <div class="flex flex-col gap-0.5 w-max shrink-0 mt-3">
-                            <asp:LinkButton ID="btnSearch" runat="server" CssClass="flex items-center gap-1.5 rounded bg-[#2EB85C] text-white px-4 py-1 shadow-sm hover:bg-[#1E7E34] cursor-pointer transition duration-200 ease-in-out font-medium text-sm no-underline justify-center h-[34px] whitespace-nowrap">
-                                <span>Search</span>
-                            </asp:LinkButton>
-                        </div>
+                    <%-- add button --%>
+                    <div class="flex flex-col gap-0.5 w-max shrink-0 mt-3">
+                        <asp:LinkButton ID="btnSearch" runat="server" CssClass="flex items-center gap-1.5 rounded bg-[#2EB85C] text-white px-4 py-1 shadow-sm hover:bg-[#1E7E34] cursor-pointer transition duration-200 ease-in-out font-medium text-sm no-underline justify-center h-[34px] whitespace-nowrap"> Search </asp:LinkButton>
+                    </div>
                 </div>
 
                 <%-- Bottom Gridview  --%>
-                <div class="border border-gray-400 bg-gray-100 rounded w-full h-64 flex-1 overflow-y-auto overflow-x-auto mt-3">
+                <div class="border border-gray-400 bg-gray-100 rounded w-full h-80 flex-1 overflow-y-auto overflow-x-auto mt-3">
                     <asp:GridView ID="GridView2" runat="server"></asp:GridView>
                 </div>
 
