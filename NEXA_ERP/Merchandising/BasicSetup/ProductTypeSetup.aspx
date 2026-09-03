@@ -20,9 +20,7 @@
             <asp:HiddenField ID="hfUserId" runat="server" />
             <asp:HiddenField ID="hfProductTypeId" runat="server" />
 
-            <%-- ============================================================ --%>
             <%-- LIST PANEL : Product Type List (opens first, always) --%>
-            <%-- ============================================================ --%>
             <asp:Panel ID="pnlList" runat="server">
 
                 <div class="bg-[#255C8C] flex justify-between items-center rounded-t-lg px-4 py-2">
@@ -84,7 +82,7 @@
                             <div class="flex flex-col gap-2">
 
                                 <div class="flex flex-col gap-0.5 w-full">
-                                    <label class="text-sm font-medium">Product Type Name</label>
+                                    <label class="text-lg">Product Type Name</label>
                                     <asp:TextBox ID="txtProductTypeName" placeholder="Product Type Name" runat="server" CssClass="w-full border rounded outline-none border-gray-300 px-2 py-1 focus:border-[#255C8C] shadow-sm transition duration-200 ease-in-out"></asp:TextBox>
                                 </div>
 

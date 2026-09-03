@@ -171,6 +171,7 @@
     <Content Include="IE_Module\ThreadConsumpsion.aspx" />
     <Content Include="ItemCategory.aspx" />
     <Content Include="Merchandising\BasicSetup\BuyerBrandSetup.aspx" />
+    <Content Include="Merchandising\BasicSetup\BuyerSetup.aspx" />
     <Content Include="Merchandising\BasicSetup\BuyingAgentSetup.aspx" />
     <Content Include="Merchandising\BasicSetup\EmbCategorySetup.aspx" />
     <Content Include="Merchandising\BasicSetup\ItemTypeSetup.aspx" />
@@ -627,6 +628,13 @@
     <Compile Include="Merchandising\BasicSetup\BuyerBrandSetup.aspx.designer.cs">
       <DependentUpon>BuyerBrandSetup.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Merchandising\BasicSetup\BuyerSetup.aspx.cs">
+      <DependentUpon>BuyerSetup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Merchandising\BasicSetup\BuyerSetup.aspx.designer.cs">
+      <DependentUpon>BuyerSetup.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Merchandising\BasicSetup\BuyingAgentSetup.aspx.cs">
       <DependentUpon>BuyingAgentSetup.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -778,6 +786,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Merchandising\BasicSetup\NewFolder1\" />
     <Folder Include="Merchandising\BuyerPurchaseOrder\" />
     <Folder Include="Merchandising\Report\" />
   </ItemGroup>
