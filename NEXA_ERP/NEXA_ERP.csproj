@@ -176,6 +176,7 @@
     <Content Include="Merchandising\BasicSetup\ItemTypeSetup.aspx" />
     <Content Include="Merchandising\BasicSetup\JobSerialFormat.aspx" />
     <Content Include="Merchandising\BasicSetup\ProductDepartmentSetup.aspx" />
+    <Content Include="Merchandising\BasicSetup\ProductTypeSetup.aspx" />
     <Content Include="poEntrypage1.aspx" />
     <Content Include="poEntryPage2.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -660,6 +661,13 @@
     </Compile>
     <Compile Include="Merchandising\BasicSetup\ProductDepartmentSetup.aspx.designer.cs">
       <DependentUpon>ProductDepartmentSetup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Merchandising\BasicSetup\ProductTypeSetup.aspx.cs">
+      <DependentUpon>ProductTypeSetup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Merchandising\BasicSetup\ProductTypeSetup.aspx.designer.cs">
+      <DependentUpon>ProductTypeSetup.aspx</DependentUpon>
     </Compile>
     <Compile Include="poEntrypage1.aspx.cs">
       <DependentUpon>poEntrypage1.aspx</DependentUpon>
