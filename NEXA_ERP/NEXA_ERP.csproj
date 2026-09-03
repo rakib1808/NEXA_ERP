@@ -170,6 +170,7 @@
     <Content Include="IE_Module\style_SMV_Report.aspx" />
     <Content Include="IE_Module\ThreadConsumpsion.aspx" />
     <Content Include="ItemCategory.aspx" />
+    <Content Include="Merchandising\BasicSetup\BuyerBrandSetup.aspx" />
     <Content Include="poEntrypage1.aspx" />
     <Content Include="poEntryPage2.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -613,6 +614,13 @@
     <Compile Include="ItemCategory.aspx.designer.cs">
       <DependentUpon>ItemCategory.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Merchandising\BasicSetup\BuyerBrandSetup.aspx.cs">
+      <DependentUpon>BuyerBrandSetup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Merchandising\BasicSetup\BuyerBrandSetup.aspx.designer.cs">
+      <DependentUpon>BuyerBrandSetup.aspx</DependentUpon>
+    </Compile>
     <Compile Include="poEntrypage1.aspx.cs">
       <DependentUpon>poEntrypage1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -722,6 +730,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Merchandising\BuyerPurchaseOrder\" />
+    <Folder Include="Merchandising\Report\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
