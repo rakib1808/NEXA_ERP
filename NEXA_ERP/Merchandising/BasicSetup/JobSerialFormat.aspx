@@ -20,7 +20,6 @@
             <div class="bg-[#255C8C] flex justify-center items-center rounded-t-lg px-4 py-2">
                 <p class="text-white text-xl font-medium">Job Serial Format</p>
             </div>
-
             <div class="bg-[#ffffff] shadow-xl rounded-b-lg p-4">
                 <asp:HiddenField ID="hfUserId" runat="server" />
 
