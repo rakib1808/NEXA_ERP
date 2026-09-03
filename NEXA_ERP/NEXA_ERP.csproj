@@ -171,6 +171,7 @@
     <Content Include="IE_Module\ThreadConsumpsion.aspx" />
     <Content Include="ItemCategory.aspx" />
     <Content Include="Merchandising\BasicSetup\BuyerBrandSetup.aspx" />
+    <Content Include="Merchandising\BasicSetup\BuyingAgentSetup.aspx" />
     <Content Include="poEntrypage1.aspx" />
     <Content Include="poEntryPage2.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -620,6 +621,13 @@
     </Compile>
     <Compile Include="Merchandising\BasicSetup\BuyerBrandSetup.aspx.designer.cs">
       <DependentUpon>BuyerBrandSetup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Merchandising\BasicSetup\BuyingAgentSetup.aspx.cs">
+      <DependentUpon>BuyingAgentSetup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Merchandising\BasicSetup\BuyingAgentSetup.aspx.designer.cs">
+      <DependentUpon>BuyingAgentSetup.aspx</DependentUpon>
     </Compile>
     <Compile Include="poEntrypage1.aspx.cs">
       <DependentUpon>poEntrypage1.aspx</DependentUpon>
