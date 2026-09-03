@@ -80,7 +80,7 @@
                         </div>
                     </div>
                     <%-- add button --%>
-                    <div class="flex flex-col gap-0.5 w-max shrink-0 mt-3">
+                    <div class="flex justify-end mt-3">
                         <asp:LinkButton ID="btnSearch" runat="server" CssClass="flex items-center gap-1.5 rounded bg-[#2EB85C] text-white px-4 py-1 shadow-sm hover:bg-[#1E7E34] cursor-pointer transition duration-200 ease-in-out font-medium text-sm no-underline justify-center h-[34px] whitespace-nowrap"> Search </asp:LinkButton>
                     </div>
                 </div>

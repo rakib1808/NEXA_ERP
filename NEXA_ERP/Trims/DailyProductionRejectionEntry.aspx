@@ -147,12 +147,7 @@
                         </asp:LinkButton>
                     </div>
 
-                    <div class="flex items-center gap-2">
-                        <label class="text-sm font-semibold">Total Target</label>
-                        <asp:TextBox ID="txtTotalTarget" runat="server" ReadOnly="true" Text="0" CssClass="w-20 border rounded outline-none border-gray-300 bg-gray-200 px-2 py-1 text-center font-semibold shadow-sm"></asp:TextBox>
-                    </div>
                 </div>
-
             </div>
         </div>
     </form>
